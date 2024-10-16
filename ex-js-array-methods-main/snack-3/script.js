@@ -4,6 +4,18 @@ const newArrnumbers = numbers.map(number => number+1)
 
 console.log(newArrnumbers);
 
+const new_arrnumbers = []
+
+for (let i = 0; i < numbers.length; i++){
+
+    let number = numbers[i];
+
+    number+=1
+
+    new_arrnumbers.push(number)
+}
+console.log(new_arrnumbers);
+
 
 
 
